@@ -1,4 +1,3 @@
-
 loop do
   
   options = ["rock", "paper", "scissors"]
@@ -11,7 +10,7 @@ loop do
     if user_input == "exit"
       abort
     else
-      puts "Invalid choice, enter rock, paper, or scissors"
+      puts "Invalid choice. Enter rock, paper, or scissors"
       puts "What's your choice?"
       user_input = gets.chomp.downcase
     end
